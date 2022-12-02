@@ -1,4 +1,4 @@
-
+package Day1;
 
 //Import statements
 import java.util.*; //util - Need it for Scanner    by putting .* at the end, you import everything under java.util
@@ -16,7 +16,7 @@ public class Day1{
             String line = sc.nextLine();    // Store that next line into a string
 
             // Check to see if line is blank, blank line means end of that elf's calories
-            if(line.equals("")){   //use equals() method to compare strings, not ==
+            if(!line.equals("")){   //use equals() method to compare strings, not ==
                 maxCalories = Math.max(maxCalories, currentCalories);   //Math doesn't need an import statement     Math class contains many useful math functions
                 currentCalories = 0;
 
