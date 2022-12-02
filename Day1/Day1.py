@@ -1,4 +1,4 @@
-file = open("inputs/Day1Input.txt")
+file = open("Day1Input.txt")
 maxCal1 = 0
 maxCal2 = 0
 MaxCal3 = 0
