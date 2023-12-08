@@ -64,9 +64,9 @@ def p2():
         yOther = 0
         xCur = 0
         yCur = 0
-        backgroundChar = "_"
+        backgroundChar = " "
         santa = "x"
-        robo = "o"
+        robo = "_"
         charCur = santa
         switchRobo = True
         for dir in line:
